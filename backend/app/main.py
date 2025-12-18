@@ -7,4 +7,4 @@ app.include_router(ocr.router)
 
 @app.get("/")
 def root():
-    return {"status": "API runing"}
+    return {"status": "API running"}
